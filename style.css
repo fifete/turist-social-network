@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: "Microsoft Sans Serif"; */
+}
+.back-principal {
+  background-image: url("./img/fondoprin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.divs2 {
+  padding: 0px 0px;
+  width: 40%;
+  height: 100vh;
+}
+#seccion1 {
+  background: #2e3c79;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  justify-content: center;
+  align-content: center;
+}
+.formulario {
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+input {
+  margin: 10px;
+  width: 95%;
+  height: 30px;
+  border: 0.7px solid black;
+  border-radius: 10px;
+  font-family: "Overpass", sans-serif;
+}
+button {
+  margin: 10px;
+}
+#btn-signin {
+  background: #000000;
+  border: 0.7px solid #000000;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+#btn-signin:hover {
+  background: green;
+  border: green;
+}
+
+.bienvenidos {
+  font-family: "Oleo Script Swash Caps", cursive;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: #ffffff;
+  text-shadow: 0 0 12px #000, 0 0 15px #521818;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 12px;
+  margin-bottom: 2%;
+}
+/* main > div {
+  width: 100%;
+  background-image: url("./img/fondoprin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+} */
+
+#signUpForm {
+  background: #2e3c79;
+  float: left;
+  display: grid;
+  width: 40%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+#signUpForm input,
+#signInForm input {
+  border: #ffffff 1px solid;
+  padding: 5px;
+}
+::placeholder {
+  font-weight: 100;
+  font-size: 15px;
+  color: #b2b3b7;
+}
+#signUpForm input {
+  width: 85%;
+}
+#signUpForm input,
+#signUpForm p {
+  height: 30px;
+}
+
+#signUpForm p {
+  height: 20px;
+}
+#signUpForm button {
+  background: #000000;
+  border: 0.7px solid #000000;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+#signUpForm button:hover {
+  background: green;
+  border: green;
+}
+.smallText {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+#smallTex {
+  font-size: 12px;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.smallText a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.smallText a:hover {
+  text-decoration: underline;
+}
+
+.termsConditions {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+#termConditionsP {
+  font-size: 16px;
+  width: 90%;
+}
+#checkdiv {
+  width: 10%;
+}
+span {
+  font-weight: bold;
+  color: white;
+}
+.textheaderi {
+  color: #fff;
+  font-size: 12px;
+}
+label {
+  color: red;
+  font-family: "Microsoft Himalaya", sans-serif;
+  font-size: 25px;
+}
+.buttonGoogle {
+  width: 80%;
+  height: 25px;
+  border: 10px;
+  border-color: rgb(102, 26, 26);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 3%;
+  padding: 3px;
+}
+#btn-signin-google {
+  padding: 3px;
+  width: 80%;
+  text-align: left;
+  background-color: #ffffff;
+  border: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+span:hover {
+  text-decoration: underline;
+}
+#mobilediv {
+  display: none;
+}
+#complete,
+#invalidEmail,
+#invalidPassword,
+#nameAlert {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 3px;
+}
+
+/* 
+/* @media screen and (max-width:320px) {
+   
+}  */
+@media only screen and (max-width: 1100px) {
+  .divs2 {
+    width: 50%;
+  }
+
+  #signUpForm {
+    width: 50%;
+  }
+  .back-principal,
+  main > div {
+    background-image: url("./img/fondo1000.png");
+  }
+}
+@media only screen and (max-width: 700px) {
+  .back-principal,
+  main > div {
+    background-image: url("./img/fondomobile.png");
+    background-color: rgb(252, 252, 252);
+  }
+  .divs2 {
+    width: 100%;
+  }
+  #signUpForm {
+    width: 100%;
+    max-height: 540px;
+  }
+  .back-principal {
+    display: block;
+  }
+
+  #seccion2 {
+    display: none;
+  }
+  #mobilediv {
+    display: block;
+    min-width: 75%;
+    max-width: 100%;
+    min-height: 130px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("./img/mobilediv.png");
+    background-size: cover;
+  }
+  .logo1 {
+    width: 150px;
+    height: 144px;
+  }
+  #seccion1 {
+    max-height: 540px;
+  }
+}
