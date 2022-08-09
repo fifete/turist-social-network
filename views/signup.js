@@ -88,7 +88,7 @@ export const signUpHandler = (e) => {
       const userIdRegister = user.uid;
 
       emailVerificationHandler().then(() => {
-        createNewUser(name, emailRegister, userIdRegister, '../img/user.png');
+        createNewUser(name, emailRegister, userIdRegister, 'img/user.png');
         // pos antigua
       });
       window.location.hash = '#/signin';

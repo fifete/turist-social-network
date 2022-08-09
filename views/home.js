@@ -7,25 +7,25 @@ export const home = () => {
     <button class="nav-toggle"><i class="fa fa-bars"></i></button>
     <ul class="nav-menu">
       <li class="nav-menu-item">
-        <a href="#/inicio" class="nav-menu-link nav-link"><img class="iconhead"   width=38px src="../img/hogar.png" alt="inicio"></a>
+        <a href="#/inicio" class="nav-menu-link nav-link"><img class="iconhead"   width=38px src="img/hogar.png" alt="inicio"></a>
         <p class"textheaderi"> Inicio </p>
       </li>
       <li class="nav-menu-item">
-        <a href="#/mochileros" class="nav-menu-link nav-link"><img class="iconhead" width=57px src="../img/mochileros.png" alt="viajeros"></a>
+        <a href="#/mochileros" class="nav-menu-link nav-link"><img class="iconhead" width=57px src="img/mochileros.png" alt="viajeros"></a>
         <p class"textheaderi"> Mochileros </p>
       </li>
       <li class="nav-menu-item" id="perfilhead">
-        <a href="#/perfil" class="nav-menu-link nav-link"><img class="iconhead"  width=38px src="../img/useredit.png" alt="lugares"></a>
+        <a href="#/perfil" class="nav-menu-link nav-link"><img class="iconhead"  width=38px src="img/useredit.png" alt="lugares"></a>
         <p class"textheaderi"> Editar Perfil </p>
       </li>
       <li class="nav-menu-item" id="sesionhead">
-        <a id="cerrar-sesion" class="nav-menu-link nav-link"><img class="iconhead"  width=38px src="../img/logout.png" alt="lugares"></a>
+        <a id="cerrar-sesion" class="nav-menu-link nav-link"><img class="iconhead"  width=38px src="img/logout.png" alt="lugares"></a>
         <p class"textheaderi"> Cerrar Sesión </p>
       </li>
     </ul>
     <div class="burgerMenu">
       <div id='perfilView'>
-        <img class="logomenuh"  src="../img/user.png"/>
+        <img class="logomenuh"  src="img/user.png"/>
       </div>
       <div id='optionsAccount'>
         <a href="#/perfil">Editar Perfil</a><br><a id="cerrarSesion">Cerrar Sesion</a>
