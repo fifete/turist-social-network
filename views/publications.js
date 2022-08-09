@@ -70,7 +70,6 @@ async function addPublications(e) {
   if (inputTypeFile.value) {
     const urlImage = inputTypeFile.files[0].name;
     const file = inputTypeFile.files[0];
-    console.log(file);
 
     chargingGif.style.display = 'flex';
     postForm.style.display = 'none';
@@ -130,7 +129,6 @@ function addImage() {
 function deleteButtonPreviewImg() {
   /* * *Borrando el preview de la imagen */
   const deleteButtonImage = document.getElementById('deleteButtonImage');
-  console.log(deleteButtonImage);
   deleteButtonImage.addEventListener('click', () => {
     const divAddImage = document.getElementById('addImage');
     divAddImage.innerHTML = '';

@@ -79,7 +79,6 @@ async function editPerfilUser() {
   const userObject = sessionStorageCall();
 
   const perfilData = await getUserById(userObject.id, 'users');
-  console.log(perfilData);
 
   // eslint-disable-next-line no-use-before-define
   modalEdit.innerHTML = modalEditPerfil(
@@ -96,7 +95,6 @@ async function editPerfilUser() {
   }
   const cancelButton = document.querySelector('#cancelButton');
   cancelButton.addEventListener('click', () => {
-    console.log('hola');
     modalEdit.close();
   });
 
@@ -105,9 +103,7 @@ async function editPerfilUser() {
   inputFile.addEventListener('change', addImage);
 
   const guardarButton = document.querySelector('#guardarButton');
-  console.log(guardarButton);
   guardarButton.addEventListener('click', async () => {
-    console.log('hola');
     const chargingGif = document.querySelector('#modalCharginEdit');
     chargingGif.style.display = 'block';
     const chargingContainer = document.querySelector('#contentModal');

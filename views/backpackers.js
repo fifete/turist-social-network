@@ -40,9 +40,6 @@ function back() {
     const usersContainerGeneral = document.getElementById('divBackpackers');
 
     /** Creamos un div post content */
-   /*  const userContainer = document.createElement('div');
-    userContainer.setAttribute('class', 'userContainer');
-    userContainer.innerHTML = ''; */
     usersContainerGeneral.innerHTML = '';
 
     querySnapshoot.forEach((element) => {

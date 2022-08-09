@@ -45,6 +45,13 @@
   color: #fff;
   font-size: 12px;
 }
+.nav-menu-item {
+  color: #fff;
+  font-size: 12px;
+  margin: 8px 10px;
+  text-align: center;
+}
+
 .nav-menu-item:hover {
   background-color: #e2c98e;
   border-radius: 8px;
@@ -336,6 +343,11 @@
 #addImage img:first-child {
   margin-left: 5%;
 }
+
+.tooltip span {
+  color: #1d1d17;
+}
+
 #addImage span {
   position: absolute;
   right: 1%;
@@ -470,7 +482,7 @@
 .texto {
   max-width: 90%;
 }
-.nombreuser {
+.firstDivPerfil2 .nombreuser {
   font-size: 23px;
   text-align: center;
 }
@@ -524,12 +536,7 @@
   margin-right: 30px;
   list-style: none;
 }
-.nav-menu-item {
-  color: #fff;
-  font-size: 12px;
-  margin: 8px 10px;
-  text-align: center;
-}
+
 .nav-menu-link {
   padding: 8px 10px;
   border-radius: 10px;
@@ -570,9 +577,7 @@
   box-shadow: 0px 1px 10px #838bae;
   text-align: center;
 }
-.tooltip span {
-  color: #1d1d17;
-}
+
 
 #modalEditContainer {
   width: 350px;
@@ -658,10 +663,9 @@
 #perfilUser {
   height: 50vw;
 }
+
 .firstDivPerfil2 {
   max-height: 40vw;
-}
-.firstDivPerfil2 {
   background: linear-gradient(
     180deg,
     #acd2fd 0%,
