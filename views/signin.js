@@ -13,7 +13,7 @@ export const formSignIn = () => {
             <img class="logo1"  src="img/viajeros.png" width="200px"/>
             <form id="signInForm" class="formulario">
             <div class="buttonGoogle">
-                <img src="../img/logoGoogle.png" width="20px">
+                <img src="img/logoGoogle.png" width="20px">
                 <button type="submit" id="btn-signin-google">Continúa con Google</button>
             </div>
             <label id="complete"></label>
